@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(20, 20, 20, 0.897), rgba(20, 20, 20, 0.897)),url(imagens/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: wheat;
+}
+
+/* Herder e Menu */
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.logo{
+    color: #ec2578;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5em;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+    margin-right: 15px;
+    color: #ec2578;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    background-color: black;
+    border: solid 2px #ec2578;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Div - Main */
+
+.div-bloco{
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Lato', sans-serif;
+}
+
+.text1{
+    color: white;
+    padding: 15px;
+    font-size: 3.0em;
+}
+
+.text2{
+    color: rgba(255, 255, 255, 0.575);
+    padding-bottom: 30px;
+    font-size: 1.0em;
+}
+
+.bt-1{
+    margin-top: 10px;
+    margin-right: 80px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #ec2578;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 2px #ec2578;
+    cursor: pointer;
+
+}
+
+.bt-2 {
+    margin-top: 10px;
+    margin-right: 80px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #ec2578;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: solid 2px #ec2578;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    border: solid 2px #ec2578;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+footer{
+    margin-top: 160px;
+    text-align: right;
+    padding: 8px;
+    font-weight: bold;
+}
